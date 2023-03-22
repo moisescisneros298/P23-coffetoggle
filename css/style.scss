@@ -26,10 +26,19 @@ label {
     align-items: center;
     input {
         appearance: none;
-        %:checked {
-            ~ {
+        &:checked {
+            ~{
                 span {
-                    
+                    left: 150px;
+                    background: url(../img/Coffee_02.png);
+                    background-size: auto 150px;
+                    background-repeat: no-repeat;
+                    transform: rotate(360deg);
+                }
+                text {
+                    color: #8f8f8f;
+                    filter: none;
+                                        
                 }
             }
         }
