@@ -38,9 +38,25 @@ label {
                 text {
                     color: #8f8f8f;
                     filter: none;
-                                        
+
                 }
             }
         }
+    }
+    span {
+        position: absolute;
+        left: 0;
+        width: 175px;
+        height: 150px;
+        display: inline-block;
+        background: url(../img/Coffee_01.png);
+        background-size: auto 150px;
+        background-repeat: no-repeat;
+        transition: 1.5s;
+        transform: rotate(-180deg);
+        transform-origin: 75px;
+    }
+    text {
+        
     }
 }
