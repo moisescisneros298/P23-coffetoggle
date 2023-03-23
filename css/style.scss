@@ -57,6 +57,20 @@ label {
         transform-origin: 75px;
     }
     text {
-        
+        position: absolute;
+        left: -60px;
+        color: #fff;
+        font-size: 1em;
+        font-weight: 800;
+        filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0 35px #fff);
+        transition: 1.5s;
+        &:last-child {
+            position: absolute;
+            left: initial;
+            right: -60px;
+            color: #8f8f8f;
+            filter: none;
+            
+        }
     }
 }
