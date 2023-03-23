@@ -42,6 +42,10 @@ label input:checked ~ text {
   color: #8f8f8f;
   filter: none;
 }
+label input:checked ~ text:last-child {
+  color: #fff;
+  filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0 35px #fff);
+}
 label span {
   position: absolute;
   left: 0;

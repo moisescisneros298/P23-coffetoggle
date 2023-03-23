@@ -38,7 +38,10 @@ label {
                 text {
                     color: #8f8f8f;
                     filter: none;
-
+                    &:last-child{
+                        color: #fff;
+                        filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0 35px #fff);
+                    }
                 }
             }
         }
@@ -70,7 +73,7 @@ label {
             right: -60px;
             color: #8f8f8f;
             filter: none;
-            
+
         }
     }
 }
